@@ -7,8 +7,8 @@
 | | IDE | Visual Studio Code (versão mais recente). |
 | | Controle de Versão | Git (versão mais recente). |
 | | Navegador Web | Google Chrome, Firefox ou Edge (versão mais recente). |
-| **Contas** | Conta GitHub | Conta pessoal no GitHub.com, preferencialmente com o plano Free ou Pro. |
+| **Contas** | Conta GitHub | Conta pessoal no GitHub.com (plano Free ou Pro). |
 | | Conta Google | Conta Google para autenticação e uso da extensão Google Gemini. |
-| **Permissões** | Acesso ao Repositório | Permissão de *Owner* ou *Admin* no repositório GitHub do projeto. |
+| **Permissões** | Acesso ao Repositório | Permissão de *Owner* ou *Admin* no repositório do projeto. |
 | **Configurações** | Configuração do Git | `git config --global user.name "Seu Nome"` e `git config --global user.email "seu-email@exemplo.com"`. |
 | | Extensões VS Code | Instalação das extensões: `Google Gemini`, `GitLens`, `Python` (ou outra linguagem do projeto). |

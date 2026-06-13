@@ -1,17 +1,17 @@
 # 3. Arquitetura Proposta
 
-A arquitetura do ambiente de desenvolvimento foi desenhada para promover agilidade, segurança e colaboração.
+A arquitetura do ambiente de desenvolvimento foi projetada para ser ágil, segura e colaborativa.
 
-*   **GitHub:** Atua como o núcleo do ecossistema, servindo como Sistema de Controle de Versão (SCM) centralizado, plataforma de CI/CD (com GitHub Actions), ferramenta de gestão de projetos (Issues, Projects) e hub de segurança (Dependabot, Code Scanning).
-*   **Git:** Sistema de controle de versão distribuído, utilizado localmente pelo desenvolvedor para gerenciar o histórico de alterações, criar branches e sincronizar o código com o repositório remoto no GitHub.
-*   **VS Code:** Ambiente de Desenvolvimento Integrado (IDE) principal, onde o código-fonte do PortfolioHUB será escrito. Sua integração nativa com Git e o ecossistema de extensões o tornam ideal para o projeto.
-*   **Google Gemini:** Extensão de assistência por Inteligência Artificial integrada ao VS Code. Será utilizada para acelerar o desenvolvimento, gerar código, criar documentação, depurar erros e fornecer insights sobre arquitetura e boas práticas.
-*   **PortfolioHUB:** A aplicação a ser desenvolvida. Ela existirá como código-fonte dentro desta arquitetura, sendo gerenciada pelo Git e hospedada no GitHub.
+*   **GitHub:** É o núcleo do ecossistema, funcionando como repositório central (SCM), plataforma de CI/CD (GitHub Actions), gestor de projetos (Issues) e central de segurança (Dependabot, Code Scanning).
+*   **Git:** É o sistema de controle de versão distribuído, usado localmente para gerenciar o histórico de alterações, criar branches e sincronizar o código com o GitHub.
+*   **VS Code:** É o Ambiente de Desenvolvimento Integrado (IDE) principal para a codificação do PortfolioHUB, escolhido por sua integração nativa com Git e seu ecossistema de extensões.
+*   **Google Gemini:** É a extensão de IA integrada ao VS Code, usada para acelerar tarefas como geração de código, documentação, depuração e sugestão de boas práticas.
+*   **PortfolioHUB:** É a aplicação a ser desenvolvida, cujo código-fonte será gerenciado por esta arquitetura.
 
 ### Fluxo de Integração entre as Ferramentas
-O fluxo de trabalho padrão seguirá o ciclo:
-1.  **Desenvolvedor (Local):** Clona o repositório do GitHub e cria uma nova *feature branch* a partir da branch `develop` usando Git.
-2.  **Codificação (VS Code):** O desenvolvimento é realizado no VS Code. O Google Gemini é utilizado para gerar/refatorar código, explicar trechos complexos e escrever testes.
+O fluxo de trabalho padrão é o seguinte:
+1.  **Desenvolvimento Local:** O desenvolvedor clona o repositório e cria uma nova *feature branch* a partir da branch `develop`.
+2.  **Codificação:** O código é escrito no VS Code, com o auxílio do Google Gemini para gerar/refatorar código, explicar trechos e criar testes.
 3.  **Versionamento (Git):** As alterações são commitadas localmente de forma incremental.
 4.  **Sincronização (GitHub):** A *feature branch* é enviada (`push`) para o repositório remoto no GitHub.
 5.  **Revisão e Integração (GitHub):** Um *Pull Request* (PR) é aberto para mesclar a *feature branch* na branch `develop`. GitHub Actions pode ser configurado para rodar testes automatizados. Após a aprovação, o código é integrado.
