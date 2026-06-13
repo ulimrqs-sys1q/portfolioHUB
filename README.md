@@ -74,7 +74,7 @@
 
 # 
 
-# \* \*\*LinkedIn:\*\* \[Seu Nome Aqui](https://linkedin.com/in/seu-usuario)
+# \* \*\*LinkedIn:\*\* \[Ulissses Marques Sampaio](www.linkedin.com/in/ulisses-marques-sampaio-58065240b)
 
-# \* \*\*E-mail:\*\* \[seu.email@provedor.com]
+# \* \*\*E-mail:\*\* \[ulissesmarquesdf@gmail.com]
 
