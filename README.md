@@ -1,41 +1,27 @@
-# 📂 Portfólio de Engenharia de Dados & Soluções
+# 📂 Documentação do Projeto PortfolioHUB
 
-Bem-vindo(a) ao meu repositório central de projetos! Este espaço foi desenhado para consolidar a minha jornada técnica, unindo rigor acadêmico, experimentação prática e boas práticas de arquitetura de dados e governança.
+Esta pasta centraliza todos os artefatos de planejamento, arquitetura e decisões de design de engenharia tomadas ao longo do desenvolvimento do projeto **PortfolioHUB**.
 
----
+## 📋 Sumário do Plano de Implantação
 
-##  Projeto em Destaque: PortfolioHUB
+Abaixo está a documentação detalhada referente à Fase 1 - Planejamento da Implantação.
 
-O projeto principal em desenvolvimento é o **PortfolioHUB**, uma plataforma integrada à API do GitHub que automatiza a consolidação e exibição de portfólios para desenvolvedores.
+*   **1. Visão Geral do Projeto**
+    *   [1.1. Objetivo do PortfolioHUB](./1_Visao_Geral_do_Projeto.md#11-objetivo-do-portfoliohub)
+    *   [1.2. Benefícios da Solução](./1_Visao_Geral_do_Projeto.md#12-benefícios-da-solução)
+    *   [1.3. Escopo da Implantação](./1_Visao_Geral_do_Projeto.md#13-escopo-da-implantação)
+*   **[2. Objetivos da Implantação](./2_Objetivos_da_Implantacao.md)**
+*   **[3. Arquitetura Proposta](./3_Arquitetura_Proposta.md)**
+*   **[4. Pré-requisitos](./4_Pre-requisitos.md)**
+*   **[5. Plano de Execução](./5_Plano_de_Execucao.md)**
+*   **[6. Configuração do Google Gemini](./6_Configuracao_Google_Gemini.md)**
+*   **[7. Plano de Segurança Inicial](./7_Plano_de_Seguranca_Inicial.md)**
+*   **[8. Cronograma de Implantação](./8_Cronograma_de_Implantacao.md)**
+*   **[9. Gestão de Riscos](./9_Gestao_de_Riscos.md)**
+*   **[10. Critérios de Sucesso](./10_Criterios_de_Sucesso.md)**
+*   **[11. Conclusão](./11_Conclusao.md)**
 
-*   **Foco Técnico:** Consumo assíncrono de APIs, persistência em camadas (Bronze/Silver/Gold), arquitetura de cache para controle de *Rate Limit* e resiliência de dados.
-*   **Status:** Em andamento (Fase de Ingestão e Processamento).
+## 🛠️ Boas Práticas Adotadas
 
----
-
-## ️ Estrutura do Repositório
-
-O repositório está organizado de forma modular para facilitar a navegação:
-
-*   **[src/portfoliohub](./src/portfoliohub):** Código-fonte principal do projeto PortfolioHUB.
-*   **[docs](./docs):** Planos de implantação, diagramas de arquitetura e decisões técnicas (ADRs).
-*   **[Projetos Acadêmicos](./Projetos%20Acadêmicos):** Soluções desenvolvidas no ambiente universitário.
-*   **[Projetos Pessoais](./Projetos%20Pessoais):** MVPs, automações e estudos de novas tecnologias.
-
----
-
-## 🛠️ Stack Tecnológica Principal
-
-*   **Linguagens:** Python, SQL, Shell Script
-*   **Bancos de Dados & Cache:** PostgreSQL, Redis
-*   **Engenharia de Dados & APIs:** REST/GraphQL, ETL/ELT pipelines
-*   **DevOps & Infra:** Docker, GitHub Actions, Git/GitFlow
-
----
-
-## ✉️ Contato
-
-Se quiser trocar uma ideia sobre arquitetura de dados ou acompanhar o meu trabalho:
-
-*   **LinkedIn:** [Ulissses Marques Sampaio](https://www.linkedin.com/in/ulisses-marques-sampaio-58065240b)
-*   **E-mail:** [ulissesmarquesdf@gmail.com](mailto:ulissesmarquesdf@gmail.com)
+1.  **Versionamento de Escopo:** Toda mudança estrutural nos projetos deve primeiro ser documentada aqui.
+2.  **Rastreabilidade:** Manutenção de históricos de decisões arquiteturais (ADRs - *Architecture Decision Records*).
